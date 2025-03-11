@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["broadcastevent"],
+  "ios": {
+    "iosModuleName": "BroadcastEvent"
+  },
+  "android": {
+    "androidNamespace": ["broadcastevent"],
+    "androidCxxLibName": "broadcastevent"
+  },
+  "autolinking": {
+    "BroadcastEvent": {
+      "swift": "BroadcastEvent",
+      "kotlin": "BroadcastEvent"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
