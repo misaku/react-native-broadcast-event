@@ -71,7 +71,7 @@ export function createServiceBroadcast(
   actionNames: string[],
   eventName: string,
   category: string = ''
-): [React.FC, () => BroadcastContextData] {
+): [React.FC<React.PropsWithChildren>, () => BroadcastContextData] {
   const eventEmitter = new NativeEventEmitter(NativeModules.BroadcastEvent);
 
   const useDataStore = create<BroadcastContextDataStore>((set, get) => ({
